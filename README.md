@@ -11,9 +11,12 @@ Tested with:
      - vagrant-proxyconf (2.0.10, global)
      - vagrant-reload (0.0.1, global)
      - vagrant-vbguest (0.29.0, global)
+
 _NOTE_: to show installed plugins, exec `$ vagrant plugin list`
+
 ## Execution
 
+Execute `$ vagrant up` to initialize (and provision only the first time) the Ubuntu VM with Docker
 
 ## Tips
 
