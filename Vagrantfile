@@ -49,7 +49,6 @@ Vagrant.configure("2") do |config|
     main.vm.network "forwarded_port", host: 15432, guest: 5432, auto_correct: true
     main.vm.network "forwarded_port", host: 18080, guest: 8080, auto_correct: true
 
-
     main.vm.provider :virtualbox do |vb|
       if defined?($_vm_name)
         vb.name = $_vm_name
